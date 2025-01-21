@@ -15,6 +15,7 @@
     * [`Repository`](#repository)
     * [`Clone and Trust`](#clone-and-trust)
     * [`Files`](#files)
+    * [`Sync Fork: Updating Examples`](#sync-fork-updating-examples)
 <!-- TOC -->
 
 # `Setup Guide`
@@ -30,14 +31,14 @@ If you are using the lab computers, **installation is already complete**, so you
 ## `Installation`
 
 ### `Step 1 Download and Install Java JDK`
-Download the SDK from [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/).
+Download the SDK from [https://adoptium.net](https://adoptium.net).
 
 - First, click on the operating system you are using (Linux, MacOS, Windows).
 - Download the installer.
 - After downloading, run the installer.
 - Use all the default settings when installing.
 
-<img src="https://github.com/user-attachments/assets/0fa10def-4e07-4835-bdea-95321ca23102" width="75%" height="auto">
+<img src="https://private-user-images.githubusercontent.com/14349892/402437574-7c9b81a2-03e8-4190-902c-658ea2e7d7eb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY3NDcxNjIsIm5iZiI6MTczNjc0Njg2MiwicGF0aCI6Ii8xNDM0OTg5Mi80MDI0Mzc1NzQtN2M5YjgxYTItMDNlOC00MTkwLTkwMmMtNjU4ZWEyZTdkN2ViLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEzVDA1NDEwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZmOWFmNzZiZjMwOGE0MTg0MjEzMTE2YWRmMmZmZTc0MmQwNTljNjEyN2U4NzkwMTM4NzFhMDVmZDE2ODNlMmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4QSTlH4aOEYESmHQqfu7IrLmKfVfz6N6pNh0qsMx6DQ" width="75%" height="auto">
 
 ### `Step 2 Download and Install Git`
 - You may have done this for CS 151 already.
@@ -82,13 +83,14 @@ Download IntelliJ from [https://www.jetbrains.com/idea/download](https://www.jet
 ### `Step 2 Configure IntelliJ with your Github account information`
 1. Exit the **New Project** screen.
 2. Go to **Customize** (below Projects) and select **All settings.**
+   - Follow the Steps on the image
 
-<img src="https://github.com/user-attachments/assets/8b0e3585-f8ac-4945-8446-33e473f5f7e9" width="75%" height="auto">
+<img src="https://github.com/user-attachments/assets/9dd08b32-5c83-42f0-89f5-58ba81c268ea" width="75%" height="auto">
 
-3. On the left-hand side, choose **Version Control**, then **GitHub.**
-4. Click on **Add account** and follow the instructions to log in and authorize IntelliJ.
+3. Give all permissions `->` Copy the token `->` Use the token
 
-<img src="https://github.com/user-attachments/assets/5e6d32fe-a944-4246-a55d-811ca584a455" width="75%" height="auto">
+<img src="https://github.com/user-attachments/assets/226ae1bf-70d0-42e0-b6e6-c85de7461204" width="75%" height="auto">
+
 
 [<h2>⬆Back To Top⬆</h2>](#setup-guide)
 
@@ -139,5 +141,10 @@ Download IntelliJ from [https://www.jetbrains.com/idea/download](https://www.jet
 <img src="https://github.com/user-attachments/assets/de0eeac9-fbb9-4746-9e15-17bd5f65f53b" width="75%" height="auto">
 
 **Congratulations! You have compiled and run your first Java program!**
+
+### `Sync Fork: Updating Examples`
+- To get updates on the example always press Git:GitHub:Sync Fork
+
+<img src="https://private-user-images.githubusercontent.com/14349892/402439387-cadf1f42-9baa-4f83-825a-a89409dfe736.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY3NDc2ODcsIm5iZiI6MTczNjc0NzM4NywicGF0aCI6Ii8xNDM0OTg5Mi80MDI0MzkzODctY2FkZjFmNDItOWJhYS00ZjgzLTgyNWEtYTg5NDA5ZGZlNzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEzVDA1NDk0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRiOTdmODA3MWRjMGYxNjQ1YTBjNWE1YWRlZTE5ZGMzYjVhYjBlYjg5NmVkMDUyNTNjMmI5NDliYWFhOGEzYTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qKnyl4g-PIcY2AoCV7yj1IbxbEjzaad7PQL-GCYD9bc" width="75%" height="auto">
 
 [<h2>⬆Back To Top⬆</h2>](#setup-guide)

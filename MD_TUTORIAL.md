@@ -60,6 +60,9 @@ public static void main(String[] args) {
 
 ---
 
+## `Symbols`
+✅✳️⬅️➡️⏺️🔼🟢🟡🔴🔵🟣🟠⛔️🟥🔶🔻🔺❌‼️❕
+
 ## `Encrypt your File`
 
 ```bash
