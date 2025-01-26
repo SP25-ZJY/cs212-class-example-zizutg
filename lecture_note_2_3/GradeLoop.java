@@ -9,6 +9,16 @@ public class GradeLoop {
         System.out.println("Enter a valid grade (0-100): ");
         grade = input.nextInt();
 
+        while(grade < 0 || grade > 100){
+            System.out.println("Enter a valid grade (0-100): ");
+            grade = input.nextInt();
+        }
+
+        do {
+            System.out.println("Enter a valid grade (0-100): ");
+            grade = input.nextInt();
+        }while(grade < 0 || grade > 100);
+
 
 
     }

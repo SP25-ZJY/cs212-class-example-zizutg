@@ -1,10 +1,10 @@
-package lecture_note_2_3;
+package lecture_note_4_5;
 
 //MyString.java
 public class MyString {
     public static void main (String [] args) {
 
-        String name = new String("Hoang Bui");
+        String name = new String("Grey Hound");
 
         String job = new String();
         job = "teacher";
@@ -14,7 +14,7 @@ public class MyString {
 
         System.out.println(name.length());
 
-        System.out.println(name.indexOf("Bui"));
+        System.out.println(name.indexOf("Hound"));
 
         System.out.println(name.indexOf(' '));
 

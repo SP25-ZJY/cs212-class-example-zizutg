@@ -1,4 +1,4 @@
-package lecture_note_2_3;//Wrapper.java
+package lecture_note_4_5;//Wrapper.java
 
 public class Wrapper {
     public static void main( String [] args )    {
@@ -21,8 +21,6 @@ public class Wrapper {
 
         boolean test2 = Character.isDigit( 'd' );
         System.out.println( "Is d a digit? " + test2 );
-
-
 
     }
 }

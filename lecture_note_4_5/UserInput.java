@@ -1,4 +1,4 @@
-package lecture_note_2_3;
+package lecture_note_4_5;
 
 import java.util.Scanner;
 
